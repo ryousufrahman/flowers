@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+  
+}  
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 140px;
+  margin-right: 140px;
+  height: 82px;
+  margin-top: 20px;
+}  
+.items{
+  display: flex;
+  gap: 48px;
+  padding: auto;
+  margin-top: 30px;
+}    
+.items li{
+  list-style: none;
+
+
+}
+.items a{
+  text-decoration: none;
+  color: black;
+}
+.l1{
+ color: black;
+ font-weight: bold;
+}
+.hero{
+  margin-left: 140px;
+  margin-right: 140px;
+  display: flex;
+}
