@@ -72,7 +72,37 @@
   font-weight: bold;
   margin-bottom: 16px;
 }
-.shop-heading p{
-  
-  
+
+.listing{
+  height: 485px;
+  width: 270px;
+}
+.pro-photo{
+  height: 323px;
+  width: 270px;
+  margin-bottom: 18px;
+}
+.product-details{
+  text-align: center;
+}
+.product-details p{
+  font-size: 22px;
+ 
+}
+.price{
+  font-size: 22px;
+  font-weight: bold;
+}
+.btn{
+  width: 270px;
+  height: 50px;
+  color: white;
+  font-weight: 400;
+  background-color: #E95A08;
+  border: none;
+  margin-top: 18px;
+}
+.first-row{
+  display: flex;
+  gap: 20px;
 }
