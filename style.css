@@ -104,6 +104,23 @@
 }
 .first-row{
   display: flex;
-  gap: 30px;
+  gap: 10px;
   margin-bottom: 20px;
+}
+.shop-section{
+  margin-bottom: 180px;
+}
+
+.seller-a{
+  margin-left: 140px;
+  margin-right: 140px;
+}
+.trust-img{
+  position: relative;
+
+}
+.badge{
+  position: absolute;
+  top: 0px;
+  
 }
