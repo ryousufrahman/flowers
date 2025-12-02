@@ -106,12 +106,21 @@
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
+  
 }
+
 .shop-section{
   margin-bottom: 180px;
   margin-left: 140px;
   margin-right: 140px;
+}.products{
+  
+.row{
+  margin-left: 140px;
+  margin-right: 140px;
 }
+
+
 
 .seller-a{
   margin-left: 140px;
@@ -164,18 +173,34 @@
 .deals-con{
   padding: 80px;
 }
-.im1{
-  width: 366px;
-  height: 271px;
-  background-image: url(assets/deal-bloom.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-
+.f-row-imgs{
+   width: 366px;
+   height: 271px;
+   background-image: url(assets/deal-bloom.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   
 }
-.im1 p  {
-  text-align: center;
-  align-content: center;
+  
+
+
+.f-row-imgs p  {
+
   font-size: 20px;
   font-weight: bold;
   color: white;
+   
 }
+.link{
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+ margin-left: auto;
+ margin-right: auto;
+}
+.im1{
+  text-align: center;
+  position: relative;
+  top: 55px;
+}
+
