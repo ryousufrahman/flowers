@@ -127,19 +127,23 @@
   margin-right: 140px;
   margin-bottom: 200px;
 }
+
+
 .trust-img{
   position: relative;
-
 }
 .badge{
   position: absolute;
-  top: 0px;
+  top: -150px;
+  left: 370px;
   
-  
+ 
 }
+
+
 .seller-section{
   display: flex;
-  gap: 40px;
+  gap: 60px;
 
 }
 .ss-content h2{
@@ -153,6 +157,9 @@
   color: rgba(0, 0, 0, 50% );
   margin-bottom: 20px;
   
+}
+.ss-content{
+padding-top: 50px;
 }
 .latest-deals{
   margin-left: 140px;
