@@ -351,3 +351,38 @@ padding-top: 50px;
     .hero-content p{
       font-size: 14px;
     }
+    .row{
+      display: grid;
+      gap: 10px;
+      grid-template-columns: 1fr 1fr;
+      margin: 10px;
+      max-width: 95%;
+      margin-left: 10px;
+      align-items: center;
+    }
+    .shop-section{
+      max-width: 95%;
+    }
+    .listing , .btn{
+      width: 171px;
+    }
+    .pro-photo img{
+      width: 171px; ;
+    }
+    .shop-heading h1{
+      font-size: 30px;
+    }
+    .shop-heading p{
+      font-size: 14px;
+    }
+    .shop-section{
+      max-width: 98%;
+    }
+    .seller-section{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .trust-img img{
+      max-width: 99%;
+    }
