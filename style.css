@@ -324,7 +324,10 @@ padding-top: 50px;
     .navbar{
       margin: 20px;
       max-width: 80%;
-      overflow: hidden;
+      
+    }
+    .l1 , .l2 , .l3 {
+      visibility: hidden;
     }
     .hero{
       display: flex;
@@ -337,10 +340,16 @@ padding-top: 50px;
     }
     .hero img{
       max-width: 99%;
+      height: 245px;
+      
+    }
+    .heroimg{
+      height: 245px;
     }
     .hero-content{
       max-width: 90%;
       margin: 10px;
+      
       
 
     }
@@ -360,14 +369,42 @@ padding-top: 50px;
       margin-left: 10px;
       align-items: center;
     }
+    .listing{
+      height: 340px;
+    }
     .shop-section{
       max-width: 95%;
+      margin-bottom: 50px;
     }
     .listing , .btn{
       width: 171px;
+      margin-top: 30px;
+      
     }
+
     .pro-photo img{
-      width: 171px; ;
+      width: 171px; 
+      
+    }
+    .pro-photo{
+      margin-bottom: 15px;
+      height: 171px;
+    }
+    .product-details{
+      margin-top: 20px;
+      
+    }
+    .product-details p{
+      font-size: 16px;
+      margin-top: px;
+      text-align: center;
+      
+      
+    }
+    .price{
+      margin-top: 1px;
+      margin-bottom: 1px;
+    }
     }
     .shop-heading h1{
       font-size: 30px;
@@ -376,13 +413,113 @@ padding-top: 50px;
       font-size: 14px;
     }
     .shop-section{
-      max-width: 98%;
+      margin: 10px;
+    }
+    .shop-heading{
+      height: 171px;
+      width: 360px;
+      text-align: center;
+      
+    }
+
+    .seller-a{
+      max-width: 95%;
+      margin: 10px;
+      margin-top: 50px;
     }
     .seller-section{
       display: flex;
       flex-direction: column;
       gap: 10px;
+      
     }
+    
     .trust-img img{
-      max-width: 99%;
+      max-width: 358px;
+      max-height: 396px;
+      
+    } 
+    .trust-img{
+      height: 396px;
     }
+    .badge{
+      visibility: hidden;
+    }
+    .ss-content h2{
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .ss-content p{
+      font-size: 14px;
+    }
+    .latest-deals{
+      max-width: 95%;
+      margin: 10px;
+      
+    }
+    
+    .deals-con h1{
+      font-size: 24px;
+    }
+    .deals-con p{
+      font-size: 14px;
+    }
+    .deals-img{
+      display: flex;
+      flex-direction: column;
+    }
+    .big-fimg{
+      width: 361px;
+    }
+    .big-fcon p , .link2{
+      font-size: 20px;
+    }
+    .big-fcon{
+      position: relative;
+      top: 70px;
+    }
+    .deals-head{
+      width: 95%;
+      margin: 3px;
+      height: 161px;
+      margin-bottom: 100px;
+    }
+    .news-section{
+      width: 98%;
+      margin: 1px;
+      
+    }
+    .news-bg{
+      
+      width: 100%;
+      height: 275px;
+    }
+    .news-head h2{
+      font-size: 20px;
+    }
+    .news-type{
+      width: 70%;
+    }
+    .btn-news{
+      width: 20%;
+    }
+    .news-head{
+      position:relative;
+      top: 60px;
+    }
+    .footer-part{
+      max-width: 98%;
+      
+    }
+    .f-part{
+      max-width: 98%;
+      margin: 10px;
+    }
+    .f-part{
+      display: flex;
+      flex-direction: column;
+    }
+  .ffr p{
+    font-size: 14px;
+
+   } 
