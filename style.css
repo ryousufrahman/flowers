@@ -317,6 +317,9 @@ padding-top: 50px;
    margin-bottom: 30px;
 }
 @media (max-width:640px){
+
+
+   
     .navimg{
       height: 38px;
       width: 63px;
@@ -326,8 +329,9 @@ padding-top: 50px;
       max-width: 80%;
       
     }
-    .l1 , .l2 , .l3 {
+    .l1 , .l2 , .l3 ,.l4 {
       visibility: hidden;
+      
     }
     .hero{
       display: flex;
