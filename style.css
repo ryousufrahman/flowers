@@ -318,7 +318,9 @@ padding-top: 50px;
 }
 @media (max-width:640px){
 
-
+   html , body{
+    overflow-x: hidden;
+   }
    
     .navimg{
       height: 38px;
@@ -327,6 +329,7 @@ padding-top: 50px;
     .navbar{
       margin: 20px;
       max-width: 80%;
+      
       
     }
     .l1 , .l2 , .l3 ,.l4 {
@@ -388,6 +391,7 @@ padding-top: 50px;
 
     .pro-photo img{
       width: 171px; 
+      height: 171px;
       
     }
     .pro-photo{
